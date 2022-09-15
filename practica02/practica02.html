@@ -6,13 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        h1, p {
+        .ui:hover{
+            color:red;
+            font-weight: bold;
+        }
+        h1 {
             font-size: 15px;
             color: green;
+        }
+        p span{
+            color: aquamarine;
+        }
+        #p1{
+            color: red;
+        }
+        #p2{
+            color: yellow;
+        }
+        #p3{
+            color: blue;
+        }
+        .peso{
+            font-weight: bold;
+            color: black !important;
+        }
+        .ui{
+            color: white;
+            padding: 10px;
+        }
+        #borrar{
+            background-color: red;
+        }
+        #borrar:hover{
+            background-color: gray;
+        }
+        #borrar:active{
+            background-color: rgb(38, 191, 225);
+        }
+        #cambiar{
+            background-color: green;
+        }
+        #guardar{
+            background-color: blue;
+        }
+        #guardar:hover{
+            background-color: gray;
+        }
+        #guardar:active{
+            background-color: rgb(38, 191, 225);
         }
     </style>
     <link rel="stylesheet" href="practica02.css">
 </head>
 <body>
-    <h1 style="color:red;">titulo de nivel 1</h1>
-    <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, maxime accusantium quisquam veniam corrupti et amet magni perferendis ea quidem voluptates qui nobis sit dicta nostrum accusamus aliquam odit quo?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, maxime accusantium quisquam veniam corrupti et amet magni perferendis ea quidem voluptates qui nobis sit dicta nostrum accusamus aliquam odit quo?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, maxime accusantium quisquam veniam corrupti et amet magni perferendis ea quidem voluptates qui nobis sit dicta nostrum accusamus aliquam odit quo?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, maxime accusantium quisquam veniam corrupti et amet magni perferendis ea quidem voluptates qui nobis sit dicta nostrum accusamus aliquam odit quo?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, maxime accusantium quisquam veniam corrupti et amet magni perferendis ea quidem voluptates qui nobis sit dicta nostrum accusamus aliquam odit quo?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, maxime accusantium quisquam veniam corrupti et amet magni perferendis ea quidem voluptates qui nobis sit dicta nostrum accusamus aliquam odit quo?</span></p>
+    <div><input type="button" value="Borrar datos" id="borrar" class="ui"><input type="button" value="Cambiar datos" id="cambiar" class="ui"><input type="button" value="Guardar datos" id="guardar" class="ui">
+    </div>
+    <h1>titulo de nivel 1</h1>
+    <p><span id="p1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, maxime accusantium quisquam veniam corrupti et amet magni perferendis ea quidem voluptates qui nobis sit dicta nostrum accusamus aliquam odit quo?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, maxime accusantium quisquam veniam corrupti et amet magni perferendis ea quidem voluptates qui nobis sit dicta nostrum accusamus aliquam odit quo?Lorem ipsum dolor, sit amet consectetur adipisicing elit. </span>
+        <span> maxime accusantium quisquam veniam corrupti et amet magni perferendis ea quidem voluptates qui nobis sit dicta nostrum accusamus aliquam odit quo?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, maxime accusantium quisquam veniam corrupti et amet magni perferendis ea quidem voluptates qui nobis sit dicta nostrum accusamus aliquam odit quo?Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+        <span>Sapiente, maxime accusantium quisquam veniam corrupti et amet magni perferendis ea quidem voluptates qui nobis sit dicta nostrum accusamus aliquam odit quo?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, maxime accusantium quisquam veniam corrupti et amet magni perferendis ea quidem voluptates qui nobis sit dicta nostrum accusamus aliquam odit quo?</span></p>
+    <p><span id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed debitis similique quo eius minima velit in reiciendis quidem. A, amet. </span>
+        <span>exercitationem excepturi voluptates numquam doloremque sit commodi earum perspiciatis!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed debitis similique quo eius minima velit in reiciendis quidem. A, amet.</span>
+        <span>Vel exercitationem excepturi voluptates numquam doloremque sit commodi earum perspiciatis!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed debitis similique quo eius minima velit in reiciendis quidem. A, amet. Vel exercitationem excepturi voluptates numquam doloremque sit commodi earum perspiciatis!</span></p>
+    <div><span id="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur architecto ut commodi. Et ipsa, non quibusdam vel cupiditate aliquam voluptatibus, iusto vero inventore debitis unde hic, dolorum ad doloremque. Doloremque.</span>
+        <span>Rerum officiis, ut sint dolores dolorum ex maxime iure ullam consectetur tempora quos? Officiis magnam autem dolore odio dolorum molestiae. Quam dolores labore nobis, unde enim doloribus ipsum soluta minus.</span>
+        <span>Explicabo, ipsam deleniti non unde exercitationem illo nesciunt. Facere, quis! Dolorum nostrum tenetur perspiciatis consectetur laboriosam delectus sint eveniet corporis iste minima atque nam alias, minus ipsam, dolores, ea molestias!</span>
+    </div>
+</body>
+
+</html>
