@@ -3,11 +3,25 @@
 <head>
     <style>
     *{
-        margin: 0PX;
-        padding: 0px;
+        margin: 0;
+        padding: 0;
     }
     .padre{
         background-color: orange;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5px;
+        border: 1px solid black;
+    
+    }
+    .hijo{
+        margin: 10px;
+        background-color: rgb(23, 196, 227);
+        width: 200px;
+    }
+    .hijo2{
+        background-color: red;
+        width: 200px;
     }
     </style>
     <meta charset="UTF-8">
@@ -21,5 +35,33 @@
     <div class="padre"padre>03</div>
     <div class="padre"padre>04</div>
     <div class="padre"padre>05</div>
+    
+    <div class="padre">
+        <div class="hijo2">h01</div>
+        <div class="hijo2">h02</div>
+        <div class="hijo2">h03</div>
+        <div class="hijo2">h04</div>
+        <div class="hijo2">h05</div>
+    </div>
+    <div class="padre">
+        <div class="hijo">h01</div>
+    </div>
+    <div class="padre">
+        <div class="hijo">h02</div>
+    </div>
+    <div class="padre">
+        <div class="hijo">h03</div>
+    </div>
+    <div class="padre">
+        <div class="hijo">h04</div>
+    </div>
+    
+    <p class="padre"> 
+        <div class="hijo2">ph01</div>
+        <div class="hijo2">ph02</div>
+        <div class="hijo2">ph03</div>
+        <div class="hijo2">ph04</div>
+        <div class="hijo2">ph05</div>
+    </p>
 </body>
 </html>
