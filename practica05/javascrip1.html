@@ -14,10 +14,31 @@
         function cambiarColores(color){
             console.log("Color recibido",color);
             var c = document.getElementsByTagName("h1")
-            for(let i=0;i<c.length;i++){
-                c[i].style.color = color
-            }
+            
+            //for(let i=0;i<c.length;i++){
+            //    c[i].style.color = color
+            //}
 
+            //var arr = [].slice.call(c);
+            //arr.forEach(element => {console.log(element)
+            //    element.style.color=color
+            //});
+            
+            //let i = 0
+            //for(const p in c){
+            //    if(i<c.length){
+            //    c[p].style.color=color
+            //    i++
+            //    }
+            //}
+            
+            for (const x in c) {
+                //if(Object.hasOwnProperty.call(c,x))
+                if (Object.hasOwnProperty.call(c, x)) {
+                    const element = c[x].style.color=color;
+                    
+                }
+            }
         }
 
     </script>
@@ -32,7 +53,6 @@
     <button onclick="cambiarColor('Green')">Verde</button>
     Cambiar todos los titulos
     <button onclick="cambiarColores('Blue')">Azul</button>
-    <button onclick="cambiarColores('Orange')">Naranja</button>
 
 </body>
 </html>
